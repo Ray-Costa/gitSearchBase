@@ -1,12 +1,11 @@
 const statusNaoEncontrado = document.querySelector(".span-input")
 statusNaoEncontrado.className = "display-none"
 
-const btnPesquisar = document.querySelector('.btn-perfil-git');
 const tagUl = document.getElementById("ul-achados")
 
 let ultimosAcessados = JSON.parse(localStorage.getItem('ultimosAcessos')) || [];
 
-function pesquisar(event) {
+function pesquisar(event, btnPesquisar) {
     event.preventDefault()
     const input = document.getElementById("input-pesquisar")
     btnPesquisar.innerHTML = `
