@@ -1,0 +1,29 @@
+.botao-email {
+    background-color: var(--color-brand-2);
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    height: 30px;
+    border-radius: 8px;
+    color: var(--color-grey-7);
+}
+
+.botao-trocar-usuario {
+    border: none;
+    width: 190px;
+    height: 30px;
+    border-radius: 8px;
+    color: var(--color-grey-7);
+    background-color: var(--color-grey-8);
+    cursor: pointer;
+}
+
+.botao-trocar-usuario:hover {
+    background-color: var(--color-grey-2);
+
+}
+
+.nav-btns {
+    display: flex;
+    gap: 10px;
+}

@@ -1,1 +1,13 @@
 /* Desenvolva sua estilização aqui...*/
+
+.div-main {}
+
+#ul-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.div-lista{
+    background-color: aliceblue;
+}

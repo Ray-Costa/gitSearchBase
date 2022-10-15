@@ -1,1 +1,222 @@
-/* Desenvolva sua estilização aqui...*/
+.container {
+    width: 45%;
+    background-color: var(--color-brand-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+.container-descricao {
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: var(--color-grey-2);
+    flex-flow: column;
+    justify-content: center;
+}
+
+.container-login .login {
+    width: 50%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.p-achados {
+    align-self: center;
+}
+
+.titulo-1,
+.titulo-2,
+.p-achados,
+.titulo-login {
+    color: var(--color-grey-7);
+}
+
+.titulo-1 {
+    font-size: 30px;
+}
+
+.titulo-2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+
+.section-achados {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 60%;
+
+}
+
+.titulo-login {
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+.div-container {
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+
+
+
+}
+
+.input-nome {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    width: 60%;
+
+}
+
+.div-btn-perfil-git {
+    padding-top: 20px;
+    width: 95%;
+    height: 30px;
+}
+
+.btn-perfil-git {
+    width: 63%;
+    height: 30px;
+    color: var(--color-grey-7);
+    background-color: var(--color-brand-2);
+    opacity: 0.4;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.nome {
+    width: 100%;
+    height: 30px;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-7);
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid var(--color-grey-4);
+    border-radius: 3px;
+    padding-left: 9px;
+
+}
+
+.label {
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+
+#span-input {
+    color: var(--color-brand-2);
+
+}
+
+.display-none {
+    display: none !important;
+}
+
+.tag-ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+
+}
+
+.tag-imagem {
+    border-radius: 50%;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.tag-imagem:hover {
+    border: 1px solid #FFF;
+    display: block;
+
+
+}
+
+.tag-li {
+    display: flex;
+    gap: 5px;
+    width: 50px;
+
+}
+
+.div-achados {
+    display: flex;
+    gap: 15px;
+}
+
+.display-none {
+    display: none;
+}
+
+.acessar-perfil {
+    position: absolute;
+    background-color: antiquewhite;
+
+}
+
+.tooltiptext {}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-1);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    font-size: 13px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-enabled {
+    background-color: var(--color-brand-1) !important;
+    opacity: 1 !important;
+}

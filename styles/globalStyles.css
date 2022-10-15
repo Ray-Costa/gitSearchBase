@@ -1,3 +1,7 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +14,9 @@
     --color-grey-1:  #191C1F;
     --color-grey-2:  #212529;
     --color-grey-3:  #33363A;
+    --color-grey-8:  #424447;
     --color-grey-4:  #373B3E;
     --color-grey-6:  #A6A8A9;
-    --color-grey-7:  #FFFFFF;
+    --color-grey-7:  #FFFFFF;;
     --color-alert:   #C22554;
 }

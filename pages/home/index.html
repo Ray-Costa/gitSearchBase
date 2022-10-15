@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Git Search</title>
-  </head>
-  <body>
-    <main></main>
-    <script src="index.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/styles/globalStyles.css"/>
+        <link rel="stylesheet" href="./index.css"/>
+        <link rel="stylesheet" href="./spinner.css"/>
+
+        <title>Git Search</title>
+    </head>
+
+    <body>
+        <aside class="container">
+            <section class="container-descricao">
+                <h1 class="titulo-1">Git Search</h1>
+                <div>
+                    <h3 class="titulo-2">Encontre e se conecte com profissionais de forma rápida e fácil</h3>
+                </div>
+            </section>
+
+            <section class="section-achados">
+                <div class="div-achados">
+                    <p class="p-achados">Achados Recentemente:
+                    </p>
+                    <ul id="ul-achados" class="ul-achados"></ul>
+                </div>
+            </section>
+        </aside>
+
+        <main class="container-login">
+            <div class="div-container">
+                <div class="div-titulo-login">
+                    <h1 class="titulo-login">Procurar por um usuário</h1>
+                </div>
+                <form class="login-form">
+                    <div class="input-nome">
+                        <label for="label" class="label">Usuário GitHub</label>
+                        <input onchange="digitandoPerfilParaPesquisar(this)" id="input-pesquisar" class="nome" type="text" placeholder="Digite um usuário do GitHub aqui...">
+                        <span id="span-input" class="span-input">Usuario não encontrado</span>
+                    </div>
+
+                    <div class="div-btn-perfil-git">
+                        <button disabled="true" onclick="pesquisar(event)" id="pesquisar-botao" class="btn-perfil-git">Ver perfil do GitHub</button>
+                    </div>
+
+                </form>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
 </html>

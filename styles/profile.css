@@ -1,0 +1,56 @@
+body{
+    background-color: var(--color-grey-3);
+    height: 100vh;
+    width: 100vw;
+}
+.imagem-perfil{
+    border-radius: 50%;
+    width: 70px;
+    cursor: pointer;
+    border: 2px solid var(--color-brand-2);
+}
+
+.h1-nome-perfil{
+    color:var(--color-grey-7);
+    font-size: 20px;
+    font-weight: normal;
+}
+.bio-perfil{
+    color: var(--color-grey-6);
+    font-size: 13px;
+    
+}
+.div-header{
+   width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.div-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+.div-perfil{
+    display: flex;
+    gap:10px;
+    width: 60%;
+        
+}
+.div-nome-bio{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    
+}
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
